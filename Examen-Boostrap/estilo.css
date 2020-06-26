@@ -1,0 +1,73 @@
+.container{
+    min-width: 1000;
+    max-width: 10000;
+    width: 720;
+    text-align: center;
+    border: 1px;
+    border-color: white;
+    border-style: groove;
+}
+#linea{
+    border: 1px;
+    border-color:white;
+    border-style: dotted;
+}
+#name{
+    text-align: center;
+}
+img{
+    height: 100%;
+    max-width: 100%;
+}
+#letra{
+    font-family: fantasy;
+    font-style: italic;
+}
+#Lugar{
+    text-align: left;
+}
+#Lugar2{
+    text-align: left;
+}
+#Letra2{
+    font-family: cursive;
+}
+
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: grid;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+    color:white;
+    text-decoration: none;
+    padding: .9rem;
+    display: inline-flexbox;
+    transition: all .5s;
+}
+.icon-facebook2{
+    background: #2E406E;
+}
+.icon-instagram{
+    background: #3F60A5;
+    border-radius: 1rem 0 0 1rem;
+}
+.icon-whatsapp{
+    background: seagreen;
+}
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42)
+}
